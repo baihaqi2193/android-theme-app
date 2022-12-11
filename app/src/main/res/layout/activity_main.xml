@@ -27,6 +27,7 @@
                 app:srcCompat="@drawable/iphone_14" />
 
             <TextView
+                style="@style/TextContent.Small.White"
                 android:id="@+id/photosText"
                 android:layout_width="wrap_content"
                 android:layout_height="44dp"
@@ -34,6 +35,7 @@
                 android:layout_marginStart="16dp"
                 android:layout_marginBottom="16dp"
                 android:adjustViewBounds="true"
+                android:drawableStart="@drawable/ic_collections_white_18dp"
                 android:background="#4D000000"
                 android:drawablePadding="12dp"
                 android:gravity="center_vertical"
@@ -45,6 +47,7 @@
         </FrameLayout>
 
         <TextView
+            style="@style/TextContent"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="16dp"
@@ -56,6 +59,7 @@
             android:textSize="32sp" />
 
         <TextView
+            style="@style/TextContent.Subtitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="16dp"
@@ -65,6 +69,7 @@
             android:textSize="12sp" />
 
         <TextView
+            style="@style/TextContent"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="16dp"
@@ -75,6 +80,7 @@
             android:textStyle="bold" />
 
         <TextView
+            style="@style/TextContent"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="16dp"
@@ -84,6 +90,7 @@
             android:text="@string/content_text" />
 
         <TextView
+            style="@style/TextContent.Subtitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="16dp"
@@ -107,6 +114,7 @@
                 android:layout_marginBottom="8dp">
 
                 <TextView
+                    style="@style/TextSpec.Field"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="16dp"
@@ -115,6 +123,7 @@
                     android:textStyle="bold" />
 
                 <TextView
+                    style="@style/TextSpec.Value"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="16dp"
@@ -129,6 +138,7 @@
                 android:layout_marginBottom="8dp">
 
                 <TextView
+                    style="@style/TextSpec.Field"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="16dp"
@@ -137,6 +147,7 @@
                     android:textStyle="bold" />
 
                 <TextView
+                    style="@style/TextSpec.Value"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="16dp"
@@ -151,6 +162,7 @@
                 android:layout_marginBottom="8dp">
 
                 <TextView
+                    style="@style/TextSpec.Field"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="16dp"
@@ -159,6 +171,7 @@
                     android:textStyle="bold" />
 
                 <TextView
+                    style="@style/TextSpec.Value"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="16dp"
@@ -170,6 +183,7 @@
         </TableLayout>
 
         <TextView
+            style="@style/TextContent.Subtitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="16dp"
@@ -195,6 +209,7 @@
                 android:src="@drawable/photo_anas" />
 
             <TextView
+                style="@style/TextContent"
                 android:id="@+id/textView10"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
